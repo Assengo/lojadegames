@@ -18,6 +18,10 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { AtualizaProdutoComponent } from './restrito/atualiza-produto/atualiza-produto.component';
+import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
+import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
+import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
 
 
 @NgModule({
@@ -26,7 +30,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     InicioComponent,
     LoginComponent,
     MenuComponent,
-    RodapeComponent
+    RodapeComponent,
+    AtualizaProdutoComponent,
+    CadastroProdutoComponent,
+    ListaProdutoComponent,
+    MenuRestritoComponent
   ],
   imports: [
     BrowserModule,
