@@ -8,6 +8,10 @@ import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { AtualizaProdutoComponent } from './restrito/atualiza-produto/atualiza-produto.component';
+import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
+import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
+import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
 
 /* angular material*/
 import {MatButtonModule} from '@angular/material/button';
@@ -18,11 +22,6 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { AtualizaProdutoComponent } from './restrito/atualiza-produto/atualiza-produto.component';
-import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
-import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
-import { MenuRestritoComponent } from './restrito/menu-restrito/menu-restrito.component';
-
 
 @NgModule({
   declarations: [
