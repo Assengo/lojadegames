@@ -18,6 +18,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatInputModule} from '@angular/material/input';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { RestritoComponent } from './restrito/restrito.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     InicioComponent,
     LoginComponent,
     MenuComponent,
-    RodapeComponent
+    RodapeComponent,
+    RestritoComponent
   ],
   imports: [
     BrowserModule,
